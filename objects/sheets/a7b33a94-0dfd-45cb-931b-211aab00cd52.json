@@ -11,7 +11,7 @@
     "rank": -2.042969,
     "thumbnail": {
       "qStaticContentUrlDef": {
-        "qUrl": "/api/v1/apps/00daef39-fac8-4777-9ff1-ded3b4362829/media/files/CRM.png"
+        "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/CRM.png"
       }
     },
     "columns": 36,
@@ -920,7 +920,7 @@
             "id": "uMfEw",
             "url": {
               "qStaticContentUrlDef": {
-                "qUrl": "/api/v1/apps/00daef39-fac8-4777-9ff1-ded3b4362829/media/files/logo boocenter.jpeg"
+                "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/logo boocenter.jpeg"
               }
             }
           }

@@ -1,94 +1,94 @@
 {
   "qProperty": {
     "qInfo": {
-      "qId": "8f1b333d-1f11-4c7c-aa78-45d609443bf9",
+      "qId": "5c414820-77e7-495e-850b-333c81329274",
       "qType": "sheet"
     },
     "qMetaDef": {
-      "title": "Assinaturas",
+      "title": "Conversão (1)",
       "description": ""
     },
-    "rank": -3.000977,
+    "rank": 6.25,
     "thumbnail": {
       "qStaticContentUrlDef": {
-        "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/Assinatura.png"
+        "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/taxa de conversão.png"
       }
     },
     "columns": 36,
     "rows": 18,
     "cells": [
       {
-        "name": "fea9f1dd-fee3-4e22-93da-ec06b490c57d",
+        "name": "defc57bf-c1a9-403d-a4ac-bc64424f982f",
         "type": "table",
-        "col": 7,
-        "row": 8,
-        "colspan": 29,
-        "rowspan": 5,
+        "col": 6,
+        "row": 0,
+        "colspan": 30,
+        "rowspan": 9,
         "bounds": {
-          "y": 44.44444444444444,
-          "x": 19.444444444444446,
-          "width": 80.55555555555556,
-          "height": 27.77777777777778
+          "y": 0,
+          "x": 16.666666666666664,
+          "width": 83.33333333333334,
+          "height": 50
         }
       },
       {
-        "name": "0054baf7-6872-4eb1-93fc-8ebe973dc80f",
+        "name": "d9167b4c-1b17-4f05-9f90-ef7d03c23f15",
         "type": "text-image",
         "col": 0,
         "row": 0,
-        "colspan": 7,
+        "colspan": 6,
         "rowspan": 2,
         "bounds": {
           "y": 0,
           "x": 0,
-          "width": 19.444444444444446,
+          "width": 16.666666666666664,
           "height": 11.11111111111111
         }
       },
       {
-        "name": "d3bda19c-c94e-4572-99c8-7da0b3614add",
-        "type": "gauge",
-        "col": 0,
-        "row": 8,
-        "colspan": 7,
-        "rowspan": 5,
-        "bounds": {
-          "y": 44.44444444444444,
-          "x": 0,
-          "width": 19.444444444444446,
-          "height": 27.77777777777778
-        }
-      },
-      {
-        "name": "12f639a4-2deb-489e-a3b1-f7e29573cec5",
+        "name": "5e3fdcc0-bd02-43a8-bc86-93ae9a82018a",
         "type": "gauge",
         "col": 0,
         "row": 3,
-        "colspan": 7,
+        "colspan": 6,
         "rowspan": 5,
         "bounds": {
           "y": 16.666666666666664,
           "x": 0,
-          "width": 19.444444444444446,
+          "width": 16.666666666666664,
           "height": 27.77777777777778
         }
       },
       {
-        "name": "EGepeap",
-        "type": "kpi",
+        "name": "7719cf16-e8b8-40ef-9957-fcfb30dd978d",
+        "type": "gauge",
+        "col": 0,
+        "row": 8,
+        "colspan": 6,
+        "rowspan": 5,
+        "bounds": {
+          "y": 44.44444444444444,
+          "x": 0,
+          "width": 16.666666666666664,
+          "height": 27.77777777777778
+        }
+      },
+      {
+        "name": "2da2b42b-d8fa-4dbb-97ee-f6591ef89ca2",
+        "type": "gauge",
         "col": 0,
         "row": 13,
-        "colspan": 7,
+        "colspan": 6,
         "rowspan": 5,
         "bounds": {
           "y": 72.22222222222221,
           "x": 0,
-          "width": 19.444444444444446,
+          "width": 16.666666666666664,
           "height": 27.77777777777778
         }
       },
       {
-        "name": "bLGFReB",
+        "name": "5525f15b-490c-42a4-a181-de819bf351ad",
         "type": "filterpane",
         "col": 0,
         "row": 2,
@@ -102,7 +102,7 @@
         }
       },
       {
-        "name": "BHJMvkn",
+        "name": "35c33b92-f319-46af-bed1-f905773dde00",
         "type": "filterpane",
         "col": 2,
         "row": 2,
@@ -116,31 +116,45 @@
         }
       },
       {
-        "name": "nfmyDn",
-        "type": "table",
-        "col": 7,
-        "row": 13,
-        "colspan": 29,
-        "rowspan": 5,
+        "name": "ae03064d-c255-4c2f-9747-95dbeaf203c9",
+        "type": "filterpane",
+        "col": 4,
+        "row": 2,
+        "colspan": 2,
+        "rowspan": 1,
         "bounds": {
-          "y": 72.22222222222221,
-          "x": 19.444444444444446,
-          "width": 80.55555555555556,
-          "height": 27.77777777777778
+          "y": 11.11111111111111,
+          "x": 11.11111111111111,
+          "width": 5.555555555555555,
+          "height": 5.555555555555555
         }
       },
       {
-        "name": "knBhVc",
+        "name": "db25a78d-ed4c-42ba-8261-44cd55917137",
         "type": "table",
-        "col": 7,
-        "row": 0,
-        "colspan": 29,
-        "rowspan": 8,
+        "col": 25,
+        "row": 9,
+        "colspan": 11,
+        "rowspan": 9,
         "bounds": {
-          "y": 0,
-          "x": 19.444444444444446,
-          "width": 80.55555555555556,
-          "height": 44.44444444444444
+          "y": 50,
+          "x": 69.44444444444444,
+          "width": 30.555555555555557,
+          "height": 50
+        }
+      },
+      {
+        "name": "4505c3a3-f4a9-4bf1-ad8c-f9d750e6f128",
+        "type": "table",
+        "col": 6,
+        "row": 9,
+        "colspan": 19,
+        "rowspan": 9,
+        "bounds": {
+          "y": 50,
+          "x": 16.666666666666664,
+          "width": 52.77777777777778,
+          "height": 50
         }
       }
     ],
@@ -156,7 +170,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "fea9f1dd-fee3-4e22-93da-ec06b490c57d",
+          "qId": "defc57bf-c1a9-403d-a4ac-bc64424f982f",
           "qType": "table"
         },
         "qMetaDef": {},
@@ -179,7 +193,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "rRfsE",
+                "cId": "cmMkP",
                 "othersLabel": "Outros",
                 "textAlign": {
                   "auto": true,
@@ -223,15 +237,14 @@
           "qMeasures": [
             {
               "qDef": {
-                "qLabel": "Vendas mês anterior",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  AnoMes = {'$(vAnoMesAnterior)'} ,\n      deleted_at = {'01/01/1900'}\n      >}price)",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n\n\n\n\n\n",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "#.##0,00",
+                  "qFmt": "0,0%",
                   "qDec": ",",
                   "qThou": "."
                 },
@@ -239,7 +252,7 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Vendas total: '&date(addmonths(date(today(), 'YYYYMMDD'), -1),'MMM/YYYY')",
+                "qLabelExpression": "='Índice de Conversão '&Date(today(),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -301,7 +314,7 @@
                     ]
                   }
                 },
-                "cId": "JPDEUMj",
+                "cId": "wPgsCY",
                 "isCustomFormatted": false
               },
               "qSortBy": {
@@ -309,13 +322,7 @@
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "'#bdbdbd'",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -348,12 +355,12 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  AnoMes = {'$(vAnoMesAnterior)'} ,\n      [Proc. Venda Assinatura] = {'S'},\n      deleted_at = {'01/01/1900'}\n      >}price)\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "#.##0,00",
+                  "qFmt": "#.##0",
                   "qDec": ",",
                   "qThou": "."
                 },
@@ -361,7 +368,123 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Vendas Assinatura: '&date(addmonths(date(today(), 'YYYYMMDD'), -1),'MMM/YYYY')",
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(today(),'MMM/YY')",
+                "autoSort": true,
+                "cId": "KyfUJ",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-1),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -424,20 +547,14 @@
                   }
                 },
                 "isCustomFormatted": false,
-                "cId": "jkVPm"
+                "cId": "Epquhy"
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "'#bdbdbd'",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -470,7 +587,123 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "column(2) / column(1)",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-1),'MMM/YY')",
+                "autoSort": true,
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "cId": "HXQRc",
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
@@ -483,7 +716,7 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='% de vendas de assinaturas: '&date(addmonths(date(today(), 'YYYYMMDD'), -1),'MMM/YYYY')",
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-2),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -545,21 +778,15 @@
                     ]
                   }
                 },
-                "cId": "KNjfSYe",
-                "isCustomFormatted": false
+                "isCustomFormatted": false,
+                "cId": "VtWLHG"
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "'#d9d9d9'",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -592,12 +819,12 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n      [Proc. Venda Assinatura] = {'S'},\n      AnoMesDia = {\">=$(vAnoMesDiaAntIni)<=$(vAnoMesDiaANT)\"}  ,\n      deleted_at = {'01/01/1900'}\n      >}price) ",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "#.##0,00",
+                  "qFmt": "#.##0",
                   "qDec": ",",
                   "qThou": "."
                 },
@@ -605,9 +832,8 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Parcial de vendas de assinaturas: '&date(addmonths(date(today(), 'YYYYMMDD'), -1),'MMM/YYYY')",
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-2),'MMM/YY')",
                 "autoSort": true,
-                "cId": "TjetSz",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -668,6 +894,7 @@
                     ]
                   }
                 },
+                "cId": "eXTJEj",
                 "isCustomFormatted": false
               },
               "qSortBy": {
@@ -675,13 +902,7 @@
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "'#d9d9d9'",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -714,12 +935,12 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      [Proc. Venda Assinatura] = {'S'},\n      deleted_at = {'01/01/1900'}\n      >}price) ",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "#.##0,00",
+                  "qFmt": "0,0%",
                   "qDec": ",",
                   "qThou": "."
                 },
@@ -727,9 +948,9 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Parcial de vendas de assinaturas: '&date(today(), 'MMM/YYYY')",
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-3),'MMM/YY')",
                 "autoSort": true,
-                "cId": "cGMfQe",
+                "cId": "DPmmj",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -828,15 +1049,14 @@
             },
             {
               "qDef": {
-                "qLabel": "% Parcial de vendas de assinaturas",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "(column(5) / column(4)) -1",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "0%",
+                  "qFmt": "#.##0",
                   "qDec": ",",
                   "qThou": "."
                 },
@@ -844,8 +1064,8 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-3),'MMM/YY')",
                 "autoSort": true,
-                "cId": "pPHmuc",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -906,6 +1126,7 @@
                     ]
                   }
                 },
+                "cId": "ABPsgtT",
                 "isCustomFormatted": false
               },
               "qSortBy": {
@@ -913,13 +1134,7 @@
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "=if( (column(5) / column(4)) >= 1, Green(), red() )",
-                  "qAttribute": true,
-                  "id": "cellForegroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -949,16 +1164,24 @@
               }
             },
             {
-              "qLibraryId": "anQhQF",
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n\n\n\n\n\n\n\n\n\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
+                "qLabelExpression": "='Índice de Conversão Mês do Filtro'",
                 "autoSort": true,
-                "cId": "uRZAFN",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -1019,17 +1242,21 @@
                     ]
                   }
                 },
-                "quarantine": {
-                  "qNumFormat": {},
-                  "isCustomFormatted": false
-                }
+                "isCustomFormatted": false,
+                "cId": "DjrPXp"
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [],
+              "qAttributeExpressions": [
+                {
+                  "qExpression": "'#f0f0f0'",
+                  "qAttribute": true,
+                  "id": "cellBackgroundColor"
+                }
+              ],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -1060,14 +1287,16 @@
             }
           ],
           "qInterColumnSortOrder": [
-            5,
             0,
-            1,
-            6,
+            7,
+            5,
             3,
-            4,
+            1,
+            9,
             2,
-            7
+            4,
+            6,
+            8
           ],
           "qSuppressMissing": true,
           "qInitialDataFetch": [],
@@ -1090,7 +1319,9 @@
             4,
             5,
             6,
-            7
+            7,
+            8,
+            9
           ],
           "qExpansionState": [],
           "qDynamicScript": [],
@@ -1102,17 +1333,21 @@
             4,
             5,
             6,
-            7
+            7,
+            8,
+            9
           ],
           "columnWidths": [
             226,
-            106,
-            126,
-            147,
-            146,
-            148,
+            125,
+            95,
             124,
-            -1
+            94,
+            122,
+            94,
+            122,
+            91,
+            135
           ],
           "qLayoutExclude": {
             "qHyperCubeDef": {
@@ -1141,7 +1376,7 @@
           "sorting": "auto"
         },
         "showTitles": true,
-        "title": "Assinatura - VENDAS",
+        "title": "Conversão por loja",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -1158,7 +1393,7 @@
               "hoverEffect": true,
               "hoverColor": {
                 "index": -1,
-                "color": "#eae8e7"
+                "color": "#e0dfdd"
               },
               "hoverFontColor": {
                 "index": -1,
@@ -1171,6 +1406,9 @@
                 "index": -1,
                 "color": null
               }
+            },
+            "scrollbar": {
+              "size": "medium"
             }
           }
         ],
@@ -1195,7 +1433,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "c00cf706-d98c-4daa-b8b4-0c8e23d6e35c",
+          "qId": "24f87d5c-68fe-45db-8dc0-cf22ef90a14b",
           "qType": "gauge"
         },
         "qMetaDef": {},
@@ -1358,7 +1596,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "12f639a4-2deb-489e-a3b1-f7e29573cec5",
+          "qId": "5e3fdcc0-bd02-43a8-bc86-93ae9a82018a",
           "qType": "gauge"
         },
         "qMetaDef": {},
@@ -1366,26 +1604,18 @@
           "qDimensions": [],
           "qMeasures": [
             {
-              "qLibraryId": "anQhQF",
+              "qLibraryId": "nEwEbH",
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Qtd. '&date(today(), 'MMM/YYYY')",
                 "autoSort": true,
-                "cId": "GGjFd",
+                "cId": "fqNJx",
                 "numFormatFromTemplate": true,
                 "quarantine": {
-                  "qNumFormat": {
-                    "qType": "F",
-                    "qnDec": 2,
-                    "qUseThou": 0,
-                    "qFmt": "#.##0",
-                    "qDec": ",",
-                    "qThou": "."
-                  },
+                  "qNumFormat": {},
                   "isCustomFormatted": false
                 }
               },
@@ -1475,14 +1705,18 @@
           "refLines": []
         },
         "showTitles": true,
-        "title": "Qtd. novas assinaturas",
+        "title": {
+          "qStringExpression": {
+            "qExpr": "='Índice de conversão '&vMesHoje&'/'&vAnoHoje"
+          }
+        },
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": true,
         "showDetails": false,
         "measureAxis": {
           "min": 0,
-          "max": 250,
+          "max": 1,
           "show": "all",
           "spacing": 2
         },
@@ -1503,7 +1737,7 @@
         "segmentInfo": {
           "limits": [
             {
-              "value": 200,
+              "value": 0.9,
               "gradient": false
             }
           ],
@@ -1531,66 +1765,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "BHJMvkn",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "qChildListDef": {
-          "qData": {
-            "info": "/qInfo"
-          }
-        },
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": true,
-        "showDetails": false,
-        "visualization": "filterpane"
-      },
-      "qChildren": [
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "JYvwLx",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "749a38fe-c15f-47e6-8670-50056edc6869",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": []
-            },
-            "title": "Mes",
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        }
-      ]
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "d3bda19c-c94e-4572-99c8-7da0b3614add",
+          "qId": "2da2b42b-d8fa-4dbb-97ee-f6591ef89ca2",
           "qType": "gauge"
         },
         "qMetaDef": {},
@@ -1599,23 +1774,23 @@
           "qMeasures": [
             {
               "qDef": {
+                "qLabel": "Novos",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      [Proc. Venda Assinatura] = {'S'},\n      deleted_at = {'01/01/1900'}\n      >}price) ",
+                "qDef": "count({<\r\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'}\n      >\n      }Pctes_CN) ",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
                   "qUseThou": 0,
-                  "qFmt": "#.##0,00",
+                  "qFmt": "#.##0",
                   "qDec": ",",
                   "qThou": "."
                 },
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "=date(today(), 'MMM/YYYY')",
                 "autoSort": true,
-                "cId": "DjgryT",
+                "cId": "nzbWAf",
                 "numFormatFromTemplate": true,
                 "isCustomFormatted": false
               },
@@ -1705,18 +1880,18 @@
           "refLines": []
         },
         "showTitles": true,
-        "title": "Valor das novas assinaturas",
+        "title": {
+          "qStringExpression": {
+            "qExpr": "='Novos NÃO convertidos '&vMesHoje&'/'&vAnoHoje"
+          }
+        },
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": true,
         "showDetails": false,
         "measureAxis": {
           "min": 0,
-          "max": {
-            "qValueExpression": {
-              "qExpr": "150000"
-            }
-          },
+          "max": 0.1,
           "show": "all",
           "spacing": 2
         },
@@ -1729,14 +1904,15 @@
           "useBaseColors": "off"
         },
         "paletteProgressColor": {
-          "index": 6
+          "index": 6,
+          "color": "#4477aa"
         },
         "valueMode": "absolute",
         "maxSegments": 6,
         "segmentInfo": {
           "limits": [
             {
-              "value": 101250,
+              "value": 0.09,
               "gradient": false
             }
           ],
@@ -1764,7 +1940,66 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "0054baf7-6872-4eb1-93fc-8ebe973dc80f",
+          "qId": "ae03064d-c255-4c2f-9747-95dbeaf203c9",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": true,
+        "showDetails": false,
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "fe164f2d-0f3c-4f07-9420-a8056a6077e1",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "4fe73d11-0cf9-4eaf-94e9-8c243560b563",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": []
+            },
+            "title": "Dia",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "d9167b4c-1b17-4f05-9f90-ef7d03c23f15",
           "qType": "text-image"
         },
         "qMetaDef": {},
@@ -1817,13 +2052,13 @@
         "disableNavMenu": true,
         "showDetails": false,
         "responsive": "images",
-        "markdown": "![VPUk](/api/v1/apps/ec3b3d68\\-7724\\-447e\\-8e26\\-ab43cee572cb/media/files/logo%20boocenter.jpeg)",
+        "markdown": "![SxXsqPF](/api/v1/apps/ec3b3d68\\-7724\\-447e\\-8e26\\-ab43cee572cb/media/files/logo%20botocenter%20verde.jpg)",
         "images": [
           {
-            "id": "VPUk",
+            "id": "SxXsqPF",
             "url": {
               "qStaticContentUrlDef": {
-                "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/logo boocenter.jpeg"
+                "qUrl": "/api/v1/apps/ec3b3d68-7724-447e-8e26-ab43cee572cb/media/files/logo botocenter verde.jpg"
               }
             }
           }
@@ -1841,7 +2076,7 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "1bc0feee-f70d-427a-981e-1fb65dedcad9",
+          "qId": "c831fb76-3c22-4a31-8acf-9aad33c52731",
           "qType": "table"
         },
         "qMetaDef": {},
@@ -2264,67 +2499,8 @@
     {
       "qProperty": {
         "qInfo": {
-          "qId": "bLGFReB",
-          "qType": "filterpane"
-        },
-        "qMetaDef": {},
-        "qChildListDef": {
-          "qData": {
-            "info": "/qInfo"
-          }
-        },
-        "showTitles": false,
-        "title": "",
-        "subtitle": "",
-        "footnote": "",
-        "disableNavMenu": true,
-        "showDetails": false,
-        "visualization": "filterpane"
-      },
-      "qChildren": [
-        {
-          "qProperty": {
-            "qInfo": {
-              "qId": "pjmPF",
-              "qType": "listbox"
-            },
-            "qMetaDef": {},
-            "qListObjectDef": {
-              "qLibraryId": "3b3da335-a76d-47c1-85aa-30d38f2c53b9",
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
-                "qSortCriterias": [
-                  {
-                    "qSortByState": 1,
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true
-              },
-              "qFrequencyMode": "N",
-              "qShowAlternatives": true,
-              "qInitialDataFetch": [],
-              "qExpressions": []
-            },
-            "title": "Ano",
-            "visualization": "listbox"
-          },
-          "qChildren": []
-        }
-      ]
-    },
-    {
-      "qProperty": {
-        "qInfo": {
-          "qId": "EGepeap",
-          "qType": "kpi"
+          "qId": "7719cf16-e8b8-40ef-9957-fcfb30dd978d",
+          "qType": "gauge"
         },
         "qMetaDef": {},
         "qHyperCubeDef": {
@@ -2332,9 +2508,10 @@
           "qMeasures": [
             {
               "qDef": {
+                "qLabel": "Novos convertidos",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "\r\ncount({<[Proc. Venda Assinatura] = {'S'}\n\t\t, [Atend. Aplicados] = {'N'}\n        , [Proc. Aplicação Botox] = {'N'}\n        >}distinct Cod_AssinaturaSemUso) \n\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) ",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
@@ -2346,29 +2523,9 @@
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Assinaturas não iniciadas'",
                 "autoSort": true,
-                "cId": "EUXEqj",
+                "cId": "nzbWAf",
                 "numFormatFromTemplate": true,
-                "measureAxis": {
-                  "min": 0,
-                  "max": 100
-                },
-                "conditionalColoring": {
-                  "useConditionalColoring": false,
-                  "singleColor": 3,
-                  "paletteSingleColor": {
-                    "index": 6
-                  },
-                  "segments": {
-                    "limits": [],
-                    "paletteColors": [
-                      {
-                        "index": 6
-                      }
-                    ]
-                  }
-                },
                 "isCustomFormatted": false
               },
               "qSortBy": {
@@ -2412,8 +2569,8 @@
             {
               "qLeft": 0,
               "qTop": 0,
-              "qWidth": 500,
-              "qHeight": 10
+              "qWidth": 1,
+              "qHeight": 1
             }
           ],
           "qReductionMode": "N",
@@ -2453,29 +2610,189 @@
             }
           }
         },
-        "showTitles": false,
-        "title": "",
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": {
+          "qStringExpression": {
+            "qExpr": "='Novos convertidos '&vMesHoje&'/'&vAnoHoje"
+          }
+        },
         "subtitle": "",
         "footnote": "",
-        "disableNavMenu": false,
+        "disableNavMenu": true,
         "showDetails": false,
-        "showMeasureTitle": true,
-        "showSecondMeasureTitle": true,
-        "textAlign": "center",
-        "layoutBehavior": "responsive",
-        "fontSize": "M",
-        "useLink": false,
-        "sheetLink": "",
-        "openUrlInNewTab": true,
-        "visualization": "kpi",
-        "version": "0.1.0"
+        "measureAxis": {
+          "min": 0,
+          "max": 1,
+          "show": "all",
+          "spacing": 2
+        },
+        "gaugetype": "radial",
+        "autoOrientation": true,
+        "orientation": "horizontal",
+        "angle": 0.7,
+        "useSegments": true,
+        "color": {
+          "useBaseColors": "off"
+        },
+        "paletteProgressColor": {
+          "index": 6,
+          "color": "#4477aa"
+        },
+        "valueMode": "absolute",
+        "maxSegments": 6,
+        "segmentInfo": {
+          "limits": [
+            {
+              "value": 0.9,
+              "gradient": false
+            }
+          ],
+          "paletteColors": [
+            {
+              "color": "#4477aa",
+              "index": 6
+            },
+            {
+              "color": "#7db8da",
+              "index": 5
+            }
+          ],
+          "colors": [
+            {
+              "color": 3
+            }
+          ]
+        },
+        "disclaimerClosed": true,
+        "visualization": "gauge"
       },
       "qChildren": []
     },
     {
       "qProperty": {
         "qInfo": {
-          "qId": "nfmyDn",
+          "qId": "35c33b92-f319-46af-bed1-f905773dde00",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": true,
+        "showDetails": false,
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "c2688437-5b08-4d42-87eb-7c5ada5c5e50",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "749a38fe-c15f-47e6-8670-50056edc6869",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": []
+            },
+            "title": "Mes",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "5525f15b-490c-42a4-a181-de819bf351ad",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "disableNavMenu": true,
+        "showDetails": false,
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "bb2688bc-0660-4a69-b8a8-1f874bcaa493",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qLibraryId": "3b3da335-a76d-47c1-85aa-30d38f2c53b9",
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [],
+                "qFieldLabels": [],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": []
+            },
+            "title": "Ano",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "db25a78d-ed4c-42ba-8261-44cd55917137",
           "qType": "table"
         },
         "qMetaDef": {},
@@ -2498,7 +2815,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "yqzes",
+                "cId": "GGnhVA",
                 "othersLabel": "Outros",
                 "textAlign": {
                   "auto": true,
@@ -2529,21 +2846,35 @@
               "qOtherLabel": {
                 "qv": "Outros"
               },
-              "qTotalLabel": {},
+              "qTotalLabel": {
+                "qv": "Total"
+              },
               "qCalcCond": {},
-              "qAttributeExpressions": [],
+              "qAttributeExpressions": [
+                {
+                  "qAttribute": true
+                },
+                {
+                  "qAttribute": true
+                }
+              ],
               "qAttributeDimensions": [],
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              }
+              },
+              "title": "Loja",
+              "othersLabel": "Outros"
             },
             {
-              "qLibraryId": "GMBxpMn",
               "qDef": {
                 "qGrouping": "N",
-                "qFieldDefs": [],
-                "qFieldLabels": [],
+                "qFieldDefs": [
+                  "Pctes_CN"
+                ],
+                "qFieldLabels": [
+                  "Paciente"
+                ],
                 "qSortCriterias": [
                   {
                     "qSortByNumeric": 1,
@@ -2553,10 +2884,9 @@
                   }
                 ],
                 "qNumberPresentations": [],
-                "qReverseSort": true,
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "nkLZz",
+                "cId": "YmmqPuy",
                 "othersLabel": "Outros",
                 "textAlign": {
                   "auto": true,
@@ -2594,7 +2924,8 @@
               "qCalcCondition": {
                 "qCond": {},
                 "qMsg": {}
-              }
+              },
+              "othersLabel": "Outros"
             },
             {
               "qDef": {
@@ -2603,7 +2934,7 @@
                   "start_dt"
                 ],
                 "qFieldLabels": [
-                  "Data da compra"
+                  ""
                 ],
                 "qSortCriterias": [
                   {
@@ -2616,7 +2947,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "PyZQyM",
+                "cId": "QtYWg",
                 "othersLabel": "Outros",
                 "textAlign": {
                   "auto": true,
@@ -2660,10 +2991,10 @@
           "qMeasures": [
             {
               "qDef": {
-                "qLabel": "Qtd. Assinaturas não iniciadas",
+                "qLabel": "Qtde. dias",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "\r\ncount({<[Proc. Venda Assinatura] = {'S'}\n\t\t, [Atend. Aplicados] = {'N'}\n        , [Proc. Aplicação Botox] = {'N'}\n        >}distinct Cod_AssinaturaSemUso) \n\n",
+                "qDef": "if((today() - start_dt) >= 0 and (today() - start_dt) <=1000,today() - start_dt)",
                 "qNumFormat": {
                   "qType": "F",
                   "qnDec": 2,
@@ -2672,12 +3003,129 @@
                   "qDec": ",",
                   "qThou": "."
                 },
-                "qAggrFunc": "Expr",
+                "qAggrFunc": "None",
+                "qAccumulate": 0,
+                "qReverseSort": true,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "ctsgUQe",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qLabel": "Novos ñ conv.",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count(Pctes_CN)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Sum",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
                 "autoSort": true,
-                "cId": "epmcCG",
+                "cId": "DKuzjJ",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -2776,14 +3224,22 @@
             }
           ],
           "qInterColumnSortOrder": [
-            0,
+            3,
             1,
-            2,
-            3
+            4,
+            0,
+            2
           ],
           "qSuppressZero": true,
           "qSuppressMissing": true,
-          "qInitialDataFetch": [],
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 0,
+              "qHeight": 0
+            }
+          ],
           "qReductionMode": "N",
           "qMode": "S",
           "qPseudoDimPos": -1,
@@ -2799,21 +3255,39 @@
             0,
             1,
             2,
-            3
+            3,
+            4
           ],
-          "qExpansionState": [],
+          "qExpansionState": [
+            {
+              "qPos": {
+                "qDimName": "Empresa",
+                "qElemNo": [],
+                "qElemValues": []
+              }
+            },
+            {
+              "qPos": {
+                "qDimName": "Pctes_CN",
+                "qElemNo": [],
+                "qElemValues": []
+              }
+            }
+          ],
           "qDynamicScript": [],
           "columnOrder": [
             0,
             1,
             2,
-            3
+            3,
+            4
           ],
           "columnWidths": [
-            226,
-            293,
-            79,
-            112
+            97,
+            129,
+            72,
+            65,
+            77
           ],
           "qLayoutExclude": {
             "qHyperCubeDef": {
@@ -2842,7 +3316,7 @@
           "sorting": "auto"
         },
         "showTitles": true,
-        "title": "Assinatura não iniciadas",
+        "title": "Clientes novos não convertidos",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -2859,11 +3333,11 @@
               "hoverEffect": true,
               "hoverColor": {
                 "index": -1,
-                "color": "#eae8e7"
+                "color": "#e9e7e6"
               },
               "hoverFontColor": {
-                "index": -1,
-                "color": null
+                "index": 15,
+                "color": "#000000"
               }
             },
             "header": {
@@ -2872,9 +3346,55 @@
                 "index": -1,
                 "color": null
               }
+            },
+            "scrollbar": {
+              "size": "medium"
             }
           }
         ],
+        "visualization": "table",
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": ""
+          },
+          "quarantine": {
+            "conditionalShowHide": {
+              "measures": {},
+              "dimensions": {}
+            },
+            "conditionalColoring": {
+              "measures": {}
+            },
+            "tableRepresentation": {
+              "measures": {},
+              "dimensions": {}
+            },
+            "miniChartDef": {
+              "measures": {}
+            },
+            "pivotInterColSortOrder": [
+              0,
+              1
+            ],
+            "noOfLeftDims": {
+              "qHyperCubeDef.qNoOfLeftDims": 2
+            },
+            "pivotTableColumnWidths": {
+              "qHyperCubeDef.columnWidths": [
+                [
+                  349
+                ],
+                []
+              ]
+            },
+            "totalMode": {
+              "dimensions": {
+                "GGnhVA": "TOTAL_EXPR",
+                "YmmqPuy": "TOTAL_EXPR"
+              }
+            }
+          }
+        },
         "totals": {
           "show": true,
           "position": "noTotals",
@@ -2888,15 +3408,14 @@
         "multiline": {
           "wrapTextInHeaders": true,
           "wrapTextInCells": true
-        },
-        "visualization": "table"
+        }
       },
       "qChildren": []
     },
     {
       "qProperty": {
         "qInfo": {
-          "qId": "knBhVc",
+          "qId": "4505c3a3-f4a9-4bf1-ad8c-f9d750e6f128",
           "qType": "table"
         },
         "qMetaDef": {},
@@ -2906,10 +3425,10 @@
               "qDef": {
                 "qGrouping": "N",
                 "qFieldDefs": [
-                  "Empresa"
+                  "Profissional"
                 ],
                 "qFieldLabels": [
-                  "Loja"
+                  "Profissional"
                 ],
                 "qSortCriterias": [
                   {
@@ -2922,67 +3441,7 @@
                 "qNumberPresentations": [],
                 "qActiveField": 0,
                 "autoSort": true,
-                "cId": "AKnPzQ",
-                "othersLabel": "Outros",
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                },
-                "representation": {
-                  "type": "text",
-                  "urlPosition": "dimension",
-                  "urlLabel": "",
-                  "linkUrl": ""
-                }
-              },
-              "qOtherTotalSpec": {
-                "qOtherMode": "OTHER_OFF",
-                "qOtherCounted": {
-                  "qv": "10"
-                },
-                "qOtherLimit": {
-                  "qv": "0"
-                },
-                "qOtherLimitMode": "OTHER_GE_LIMIT",
-                "qForceBadValueKeeping": true,
-                "qApplyEvenWhenPossiblyWrongResult": true,
-                "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                "qTotalMode": "TOTAL_OFF",
-                "qReferencedExpression": {}
-              },
-              "qOtherLabel": {
-                "qv": "Outros"
-              },
-              "qTotalLabel": {},
-              "qCalcCond": {},
-              "qAttributeExpressions": [],
-              "qAttributeDimensions": [],
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              }
-            },
-            {
-              "qDef": {
-                "qGrouping": "N",
-                "qFieldDefs": [
-                  "Paciente_CN"
-                ],
-                "qFieldLabels": [
-                  ""
-                ],
-                "qSortCriterias": [
-                  {
-                    "qSortByNumeric": 1,
-                    "qSortByAscii": 1,
-                    "qSortByLoadOrder": 1,
-                    "qExpression": {}
-                  }
-                ],
-                "qNumberPresentations": [],
-                "qActiveField": 0,
-                "autoSort": true,
-                "cId": "nkLZz",
+                "cId": "aBaP",
                 "othersLabel": "Outros",
                 "textAlign": {
                   "auto": true,
@@ -3026,22 +3485,23 @@
           "qMeasures": [
             {
               "qDef": {
-                "qLabel": "Data da compra",
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "\r\nmax({<deleted_at = {'01/01/1900'},\n\t   [Proc. Venda Assinatura] = {'S'},\n       price = {\">1\"}\n       >}start_dt)\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n\n\n\n\n\n",
                 "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
                 },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
-                "qReverseSort": true,
                 "qActiveExpression": 0,
                 "qExpressions": [],
+                "qLabelExpression": "='Índice de Conversão '&Date(today(),'MMM/YY')",
                 "autoSort": true,
-                "cId": "HEpmEk",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -3101,7 +3561,9 @@
                       }
                     ]
                   }
-                }
+                },
+                "cId": "wPgsCY",
+                "isCustomFormatted": false
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
@@ -3141,18 +3603,22 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "if(\r\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,3) >= column(1),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,3),\nif(\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,2) >= column(1),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,2),\nif(\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt) >= column(1),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt)\n\n)))\n\n\n\n\n\n\n\n\n\n\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesHoje)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
                 "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
                 },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Data 1ª aplicação'",
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(today(),'MMM/YY')",
                 "autoSort": true,
+                "cId": "KyfUJ",
                 "numFormatFromTemplate": true,
                 "textAlign": {
                   "auto": true,
@@ -3213,126 +3679,7 @@
                     ]
                   }
                 },
-                "cId": "mMpynNg"
-              },
-              "qSortBy": {
-                "qSortByNumeric": -1,
-                "qSortByLoadOrder": 1,
-                "qExpression": {}
-              },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "=rgb(230,230,230)",
-                  "qAttribute": true,
-                  "id": "cellBackgroundColor"
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCond": {},
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "qTrendLines": [],
-              "qMiniChartDef": {
-                "qSortBy": {
-                  "qExpression": {}
-                },
-                "qOtherTotalSpec": {
-                  "qOtherMode": "OTHER_OFF",
-                  "qOtherCounted": {},
-                  "qOtherLimit": {},
-                  "qOtherLimitMode": "OTHER_GT_LIMIT",
-                  "qSuppressOther": true,
-                  "qForceBadValueKeeping": true,
-                  "qApplyEvenWhenPossiblyWrongResult": true,
-                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                  "qTotalMode": "TOTAL_OFF",
-                  "qReferencedExpression": {}
-                },
-                "qMaxNumberPoints": -1,
-                "qAttributeExpressions": [],
-                "qNullSuppression": true
-              }
-            },
-            {
-              "qDef": {
-                "qTags": [],
-                "qGrouping": "N",
-                "qDef": "date(column(2) + 120)\r\n\n/*\nif(column(1) >0,\nDate(\nmax({<deleted_at = {'01/01/1900'}\n\t   //,[Proc. Venda Assinatura] = {'S'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       >}start_dt) + 120 )\n)\n*/",
-                "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
-                },
-                "qAggrFunc": "Expr",
-                "qAccumulate": 0,
-                "qReverseSort": true,
-                "qActiveExpression": 0,
-                "qExpressions": [],
-                "qLabelExpression": "='Previsão 2ª aplicação'",
-                "autoSort": true,
-                "numFormatFromTemplate": true,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                },
-                "representation": {
-                  "type": "text",
-                  "indicator": {
-                    "showTextValues": true,
-                    "applySegmentColors": false,
-                    "position": "right"
-                  },
-                  "miniChart": {
-                    "type": "sparkline",
-                    "colors": {
-                      "main": {
-                        "index": 6
-                      },
-                      "max": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "min": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "first": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "last": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "positive": {
-                        "index": 6
-                      },
-                      "negative": {
-                        "index": 10,
-                        "color": "#f93f17"
-                      }
-                    },
-                    "showDots": true,
-                    "yAxis": {
-                      "scale": "local",
-                      "position": "auto"
-                    }
-                  }
-                },
-                "conditionalColoring": {
-                  "segments": {
-                    "limits": [],
-                    "paletteColors": [
-                      {
-                        "index": 6,
-                        "icon": "dot"
-                      }
-                    ]
-                  }
-                },
-                "cId": "MxMM"
+                "isCustomFormatted": false
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
@@ -3372,17 +3719,20 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "\r\nif(\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,2) > column(2),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt,2),\nif(\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt) > column(2),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt)\n\n))\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n",
                 "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
                 },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Data 2ª aplicação'",
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-1),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -3444,126 +3794,8 @@
                     ]
                   }
                 },
-                "cId": "gUSgA"
-              },
-              "qSortBy": {
-                "qSortByNumeric": -1,
-                "qSortByLoadOrder": 1,
-                "qExpression": {}
-              },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "=rgb(230,230,230)",
-                  "qAttribute": true,
-                  "id": "cellBackgroundColor"
-                }
-              ],
-              "qAttributeDimensions": [],
-              "qCalcCond": {},
-              "qCalcCondition": {
-                "qCond": {},
-                "qMsg": {}
-              },
-              "qTrendLines": [],
-              "qMiniChartDef": {
-                "qSortBy": {
-                  "qExpression": {}
-                },
-                "qOtherTotalSpec": {
-                  "qOtherMode": "OTHER_OFF",
-                  "qOtherCounted": {},
-                  "qOtherLimit": {},
-                  "qOtherLimitMode": "OTHER_GT_LIMIT",
-                  "qSuppressOther": true,
-                  "qForceBadValueKeeping": true,
-                  "qApplyEvenWhenPossiblyWrongResult": true,
-                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
-                  "qTotalMode": "TOTAL_OFF",
-                  "qReferencedExpression": {}
-                },
-                "qMaxNumberPoints": -1,
-                "qAttributeExpressions": [],
-                "qNullSuppression": true
-              }
-            },
-            {
-              "qDef": {
-                "qTags": [],
-                "qGrouping": "N",
-                "qDef": "=if(column(4) >0, date(column(4) + 120),\r\ndate(column(2) + 240) )\n\n/*\nif(column(1) >0,\nDate(\nmax({<deleted_at = {'01/01/1900'}\n\t   //,[Proc. Venda Assinatura] = {'S'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       >}start_dt) + 240 )\n)\n*/",
-                "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
-                },
-                "qAggrFunc": "Expr",
-                "qAccumulate": 0,
-                "qReverseSort": true,
-                "qActiveExpression": 0,
-                "qExpressions": [],
-                "qLabelExpression": "='Previsão 3ª aplicação'",
-                "autoSort": true,
-                "numFormatFromTemplate": true,
-                "textAlign": {
-                  "auto": true,
-                  "align": "left"
-                },
-                "representation": {
-                  "type": "text",
-                  "indicator": {
-                    "showTextValues": true,
-                    "applySegmentColors": false,
-                    "position": "right"
-                  },
-                  "miniChart": {
-                    "type": "sparkline",
-                    "colors": {
-                      "main": {
-                        "index": 6
-                      },
-                      "max": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "min": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "first": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "last": {
-                        "index": 0,
-                        "color": "none"
-                      },
-                      "positive": {
-                        "index": 6
-                      },
-                      "negative": {
-                        "index": 10,
-                        "color": "#f93f17"
-                      }
-                    },
-                    "showDots": true,
-                    "yAxis": {
-                      "scale": "local",
-                      "position": "auto"
-                    }
-                  }
-                },
-                "conditionalColoring": {
-                  "segments": {
-                    "limits": [],
-                    "paletteColors": [
-                      {
-                        "index": 6,
-                        "icon": "dot"
-                      }
-                    ]
-                  }
-                },
-                "cId": "KnnBmft"
+                "isCustomFormatted": false,
+                "cId": "Epquhy"
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
@@ -3603,17 +3835,20 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "\r\nif(\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt) > column(4),\nmax({\n       <deleted_at = {'01/01/1900'}\n      // ,start_dt = {\">=$(=column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'} \n       >\n       + \n\t   <deleted_at = {'01/01/1900'}\n     //  ,start_dt = {\">=$(column(1))\"} //{\">=$(=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt) )\"} \n       ,canceled_NA -= {'True'} \n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       > \n       }start_dt)\n\n))\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMesAnterior)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
                 "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
                 },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='Data 3ª aplicação'",
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-1),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -3675,20 +3910,15 @@
                     ]
                   }
                 },
-                "cId": "mdLzkB"
+                "cId": "HXQRc",
+                "isCustomFormatted": false
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
                 "qSortByLoadOrder": 1,
                 "qExpression": {}
               },
-              "qAttributeExpressions": [
-                {
-                  "qExpression": "=rgb(230,230,230)",
-                  "qAttribute": true,
-                  "id": "cellBackgroundColor"
-                }
-              ],
+              "qAttributeExpressions": [],
               "qAttributeDimensions": [],
               "qCalcCond": {},
               "qCalcCondition": {
@@ -3721,17 +3951,20 @@
               "qDef": {
                 "qTags": [],
                 "qGrouping": "N",
-                "qDef": "=if(column(6) >0, date(column(6) + 120),\r\ndate(column(2) + 360) )\n\n",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)",
                 "qNumFormat": {
-                  "qType": "U",
-                  "qnDec": 10,
-                  "qUseThou": 0
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
                 },
                 "qAggrFunc": "Expr",
                 "qAccumulate": 0,
                 "qActiveExpression": 0,
                 "qExpressions": [],
-                "qLabelExpression": "='ReCompra'",
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-2),'MMM/YY')",
                 "autoSort": true,
                 "numFormatFromTemplate": true,
                 "textAlign": {
@@ -3793,7 +4026,472 @@
                     ]
                   }
                 },
-                "cId": "LTJqLej"
+                "isCustomFormatted": false,
+                "cId": "VtWLHG"
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-2),'MMM/YY')",
+                "autoSort": true,
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "cId": "eXTJEj",
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Índice de Conversão '&Date(addmonths(today(),-3),'MMM/YY')",
+                "autoSort": true,
+                "cId": "DPmmj",
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  AnoMes = {'$(vAnoMes_3)'},\n      Ano, Mes,\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) ",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "#.##0",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Qtde. Pctes Novs '&Date(addmonths(today(),-3),'MMM/YY')",
+                "autoSort": true,
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "cId": "ABPsgtT",
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qSuppressOther": true,
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": [],
+                "qNullSuppression": true
+              }
+            },
+            {
+              "qDef": {
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n\n\n\n\n\n\n\n\n\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "0,0%",
+                  "qDec": ",",
+                  "qThou": "."
+                },
+                "qAggrFunc": "Expr",
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "qLabelExpression": "='Índice de Conversão Mês do Filtro'",
+                "autoSort": true,
+                "numFormatFromTemplate": true,
+                "textAlign": {
+                  "auto": true,
+                  "align": "left"
+                },
+                "representation": {
+                  "type": "text",
+                  "indicator": {
+                    "showTextValues": true,
+                    "applySegmentColors": false,
+                    "position": "right"
+                  },
+                  "miniChart": {
+                    "type": "sparkline",
+                    "colors": {
+                      "main": {
+                        "index": 6
+                      },
+                      "max": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "min": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "first": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "last": {
+                        "index": 0,
+                        "color": "none"
+                      },
+                      "positive": {
+                        "index": 6
+                      },
+                      "negative": {
+                        "index": 10,
+                        "color": "#f93f17"
+                      }
+                    },
+                    "showDots": true,
+                    "yAxis": {
+                      "scale": "local",
+                      "position": "auto"
+                    }
+                  }
+                },
+                "conditionalColoring": {
+                  "segments": {
+                    "limits": [],
+                    "paletteColors": [
+                      {
+                        "index": 6,
+                        "icon": "dot"
+                      }
+                    ]
+                  }
+                },
+                "isCustomFormatted": false,
+                "cId": "DjrPXp"
               },
               "qSortBy": {
                 "qSortByNumeric": -1,
@@ -3802,7 +4500,7 @@
               },
               "qAttributeExpressions": [
                 {
-                  "qExpression": "=rgb(230,230,230)",
+                  "qExpression": "'#f0f0f0'",
                   "qAttribute": true,
                   "id": "cellBackgroundColor"
                 }
@@ -3837,17 +4535,17 @@
             }
           ],
           "qInterColumnSortOrder": [
-            2,
-            3,
-            4,
-            6,
-            1,
-            5,
             0,
             7,
+            5,
+            3,
+            1,
+            9,
+            2,
+            4,
+            6,
             8
           ],
-          "qSuppressZero": true,
           "qSuppressMissing": true,
           "qInitialDataFetch": [],
           "qReductionMode": "N",
@@ -3870,7 +4568,8 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "qExpansionState": [],
           "qDynamicScript": [],
@@ -3883,18 +4582,20 @@
             5,
             6,
             7,
-            8
+            8,
+            9
           ],
           "columnWidths": [
-            203,
-            247,
-            102,
-            97,
-            98,
-            91,
-            98,
-            96,
-            98
+            216,
+            85,
+            84,
+            79,
+            83,
+            80,
+            82,
+            76,
+            83,
+            76
           ],
           "qLayoutExclude": {
             "qHyperCubeDef": {
@@ -3923,7 +4624,7 @@
           "sorting": "auto"
         },
         "showTitles": true,
-        "title": "Assinaturas já iniciadas ou agendadas",
+        "title": "Conversão por Injetor",
         "subtitle": "",
         "footnote": "",
         "disableNavMenu": false,
@@ -3937,10 +4638,10 @@
                 "index": -1,
                 "color": null
               },
-              "hoverEffect": false,
+              "hoverEffect": true,
               "hoverColor": {
                 "index": -1,
-                "color": "#f8f5f4"
+                "color": "#e0dfdd"
               },
               "hoverFontColor": {
                 "index": -1,
@@ -3960,7 +4661,7 @@
           }
         ],
         "totals": {
-          "show": false,
+          "show": true,
           "position": "noTotals",
           "label": "Totais"
         },

@@ -1,0 +1,7 @@
+///$tab Solicitante
+Solicitante:
+LOAD
+	company_id&'_'&id AS Cod_Doctor_Requester,
+    id as Cod_Solicitante,
+    name as Solicitente
+FROM [lib://Extração:DataFiles/TBE_Solicitante.qvd] (qvd);

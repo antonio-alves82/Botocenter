@@ -1,0 +1,95 @@
+///$tab Atendimento
+Atendimento:
+LOAD
+    Id_TpAtend,
+    Cod_TpAtend,
+    if(
+        Cod_TpAtend = '39696' or         
+        Cod_TpAtend = '45632' or         
+        Cod_TpAtend = '47585' or        
+        Cod_TpAtend = '22311' or        
+        Cod_TpAtend = '22436' or 
+        Cod_TpAtend = '22460' or
+        Cod_TpAtend = '22464' or
+        Cod_TpAtend = '22469' or
+        Cod_TpAtend = '51318' or
+        Cod_TpAtend = '51321' or
+        Cod_TpAtend	= '57012' or
+        Cod_TpAtend = '57015' or
+        Cod_TpAtend = '23453', 'S','N') as "Atend. Retorno",
+    if(
+        Cod_TpAtend = '39692' or         
+        Cod_TpAtend = '45264' or         
+        Cod_TpAtend = '45629' or        
+        Cod_TpAtend = '46397' or        
+        Cod_TpAtend = '47583' or 
+        Cod_TpAtend = '50889' or
+        Cod_TpAtend = '51484' or
+        Cod_TpAtend = '187209', 'S','N') as "Atend. Assinatura",
+     if(
+        Cod_TpAtend = '22434' or         
+        Cod_TpAtend = '22459' or         
+        Cod_TpAtend = '22462' or        
+        Cod_TpAtend = '22466' or        
+        Cod_TpAtend = '22467' or 
+        Cod_TpAtend = '23450' or
+        Cod_TpAtend = '27198' or
+        Cod_TpAtend = '38239' or
+        Cod_TpAtend = '39689' or        
+        Cod_TpAtend = '40679' or        
+        Cod_TpAtend = '45262' or 
+        Cod_TpAtend = '45627' or
+        Cod_TpAtend = '47581' or
+        Cod_TpAtend = '51317' or
+        Cod_TpAtend = '57011' or
+        Cod_TpAtend = '50887', 'S','N') as "Atend. Convertido",
+     if(
+        Cod_TpAtend = '15064' or         
+        Cod_TpAtend = '18952' or         
+        Cod_TpAtend = '20892' or        
+        Cod_TpAtend = '20979' or        
+        Cod_TpAtend = '21239' or 
+        Cod_TpAtend = '23449' or
+        Cod_TpAtend = '27197' or
+        Cod_TpAtend = '38238' or
+        Cod_TpAtend = '39688' or        
+        Cod_TpAtend = '40674' or        
+        Cod_TpAtend = '45261' or 
+        Cod_TpAtend = '45626' or
+        Cod_TpAtend = '50886' or
+        Cod_TpAtend = '51316' or
+        Cod_TpAtend = '47580', 'S','N') as "Atend. Novos",
+        
+     if(
+      Cod_TpAtend = '38236' OR
+      Cod_TpAtend = '38237' OR
+      Cod_TpAtend = '39692' OR
+      Cod_TpAtend = '39694' OR
+      Cod_TpAtend = '40681' OR
+      Cod_TpAtend = '40682' OR
+      Cod_TpAtend = '42233' OR
+      Cod_TpAtend = '42783' OR
+      Cod_TpAtend = '45264' OR
+      Cod_TpAtend = '45265' OR
+      Cod_TpAtend = '45629' OR
+      Cod_TpAtend = '45631' OR
+      Cod_TpAtend = '45838' OR
+      Cod_TpAtend = '46397' OR
+      Cod_TpAtend = '47583' OR
+      Cod_TpAtend = '47584' OR
+      Cod_TpAtend = '49475' OR
+      Cod_TpAtend = '50889' OR
+      Cod_TpAtend = '50890' OR
+      Cod_TpAtend = '51484' OR
+      Cod_TpAtend = '51485' OR
+      Cod_TpAtend = '52364' OR
+      Cod_TpAtend = '23705' OR
+      Cod_TpAtend = '23704' OR
+      Cod_TpAtend = '51319' OR
+      Cod_TpAtend = '51320' OR
+      Cod_TpAtend = '57013' OR
+      Cod_TpAtend = '52388', 'S','N') as "Atend. Aplicados",
+
+    upper("Tp. Atend.") as "Tp. Atend.",
+    Cor_TpAtend
+FROM [Lib://Extração:DataFiles/TBE_TpAtend.qvd] (qvd);

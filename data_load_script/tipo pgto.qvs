@@ -1,0 +1,18 @@
+///$tab tipo pgto
+pgto:
+LOAD
+    Chave_pgto,
+    Price_pgto,
+    Dt_Vencto_pgto,
+    Dt_pgto,
+    liquid_price,
+    received_value,
+    Cod_pgto,
+    Tp_pgto,
+    source_pgto,
+    installment_pgto,
+    total_installments_pgto,
+    created_at_pgto,
+    updated_at_pgto,
+    conciliated_pgto
+FROM [Lib://Extração:DataFiles/TBE_TPpgto.qvd] (qvd);

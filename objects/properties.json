@@ -1,0 +1,15 @@
+{
+  "qTitle": "BotoCenter",
+  "qThumbnail": {
+    "qUrl": "/api/v1/apps/00daef39-fac8-4777-9ff1-ded3b4362829/media/files/miniatura comercial.jpg"
+  },
+  "encrypted": true,
+  "id": "00daef39-fac8-4777-9ff1-ded3b4362829",
+  "published": false,
+  "originAppId": "ec3b3d68-7724-447e-8e26-ab43cee572cb",
+  "owner": "auth0|c45d3f57bd9cc2202a12e2e46826e19004519169a5d3e9c723ca0cc51678fa30",
+  "ownerId": "4rbsui8Jg9mHT-b8Ykjq1IXdQQAf7_xG",
+  "spaceId": "5fa5302567d06500015faca9",
+  "hassectionaccess": false,
+  "_resourcetype": "app"
+}

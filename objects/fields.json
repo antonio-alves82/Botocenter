@@ -1,0 +1,2074 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qTags": [
+      "$text",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$hidden",
+      "$system",
+      "$key"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "ANO",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "ANOMES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "ANOMESDIA",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "ANO_MES",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Ano",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "AnoMes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "AnoMesDia",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "AnoMesDia_Vencto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "AnoMes_Vencto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Ano_Vencto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Atend. Aplicados",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Atend. Assinatura",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Atend. Convertido",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Atend. Novos",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Atend. Retorno",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "BIMESTRE",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Bairro_Paciente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "CEP_Paciente",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "CPF na Nota",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "Celular",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "ChaveNota",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Nota"
+    ]
+  },
+  {
+    "qName": "Chave_Assinatura",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Chave_AssinaturaSemUso",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Assinaturas sem uso"
+    ]
+  },
+  {
+    "qName": "Chave_Empresa",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "Chave_Estoque",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "Chave_Medico",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "Chave_Paciente",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Chave_pgto",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "pgto"
+    ]
+  },
+  {
+    "qName": "Chave_procedimento",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Chave_procedimentoNF",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Cidade",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "Cidade_Paciente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "CodProcedimento",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Cod_AssinaturaSemUso",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Assinaturas sem uso"
+    ]
+  },
+  {
+    "qName": "Cod_Doctor_Requester",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Solicitante"
+    ]
+  },
+  {
+    "qName": "Cod_Empresa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "Cod_Paciente",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Cod_Solicitante",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Solicitante"
+    ]
+  },
+  {
+    "qName": "Cod_TpAtend",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Cod_pgto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "Cod_user",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "Como conheceu",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Cor_TpAtend",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "DIA",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "DIA TRIMESTRE",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "DIASEMANA",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "DIA_ANO",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "DIA_SEMANA",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "DT",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Del_NA",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Dia",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Dia_Vencto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Done_NA",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Dt competência Nota",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "Dt emissão Nota",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "DtNasc",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Dt_Vencto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Dt_Vencto_pgto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "Dt_pgto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "Emp. Médico",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "Empresa",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "ID_CALENDARIO",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Calend",
+      "Fato"
+    ]
+  },
+  {
+    "qName": "ID_CALENDARIO2",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Id_TpAtend",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Idade",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Loja",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "MES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MESANO",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MESDIA",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MES_ANO",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MES_IMPAR",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MES_NOME",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "MES_NUM",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Mes",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "MesNum",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Mes_Vencto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Metodo Pgto",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Num. Nota",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "O cliente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "Obs. Atend",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Obs. Fin",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Obs. Paciente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Paciente",
+    "qTags": [],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Paciente_CN",
+    "qTags": [],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "País",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Pctes_CN",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Pctes_novos"
+    ]
+  },
+  {
+    "qName": "Pctes_cpf",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Pctes_novos"
+    ]
+  },
+  {
+    "qName": "Pctes_empresa",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Pctes_novos"
+    ]
+  },
+  {
+    "qName": "Pctes_novos",
+    "qTags": [
+      "$text",
+      "$ascii",
+      "$key"
+    ],
+    "qSrcTables": [
+      "Fato",
+      "Pctes_novos"
+    ]
+  },
+  {
+    "qName": "Price_pgto",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "Proc. Aplicação Botox",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Proc. Avaliação",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Proc. Retorno",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Proc. Venda Assinatura",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Procedimento",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Procedimento"
+    ]
+  },
+  {
+    "qName": "Profissional",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "QUARTER",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Qtd Slot",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Região",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "SEMANA",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "SEMESTRE",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Solicitente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Solicitante"
+    ]
+  },
+  {
+    "qName": "TRIMESTRE",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Tel. Casa",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Tel. Trabalho",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "Tp. Atend.",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Atendimento"
+    ]
+  },
+  {
+    "qName": "Tp_Atend",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "Tp_Medico",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "Tp_pgto",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "UF",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "UF_Paciente",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "ULTIMO_DIA_MES",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calend"
+    ]
+  },
+  {
+    "qName": "Valor da Nota",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "Valor_Recebido",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "account_category_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "address_address",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "address_cep",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "address_district",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "address_number",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "applied_tested",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "ativo",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "attendance_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "attendance_merge_parent_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "attendance_tested",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "bank_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "born",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "canceled_NA",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "category",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "cnpj",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Empresa"
+    ]
+  },
+  {
+    "qName": "cod_estoque",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "company do estoque",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "company_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "competence",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "conciliated",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "conciliated_pgto",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "cost_center_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "cpf",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "created_at",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "created_at_pgto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "creator_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "creditcard_config_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "creditcard_lote_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "customer_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "date_key",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "deleted_at",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "deleted_at_estoque",
+    "qTags": [],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "description",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "destroyer_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "document_number",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "email",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "employee_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "especialidade",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "finance_creditcard_info_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "finance_merge_ids",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "finance_merge_parent_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "finance_session_ids",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "finance_session_parent_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "gender",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "id do atendimento",
+    "qTags": [],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "id do paciente",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "image_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Paciente"
+    ]
+  },
+  {
+    "qName": "installment_pgto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "insurance_guide_status",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "insurance_id",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "is_approved",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "is_attendance_from_to_receive",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "is_pf",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "liquid_price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "med_deleted_at",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Profissional"
+    ]
+  },
+  {
+    "qName": "meta_active",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "meta_source",
+    "qTags": [],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "migration_source",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "migration_source_2",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "missed_NA",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "paid_date",
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "partner_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "patient_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "payer_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "place_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "price",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "provider_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "qtd",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "received_value",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "recipe_date",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "repeat_config_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "repeat_installment",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "repeat_total_installments",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "retentions",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "servico_item_lista_servico",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Nota"
+    ]
+  },
+  {
+    "qName": "source",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "source_pgto",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "splits_tested",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "start_AnoMesDia",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "start_date",
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "start_dt",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "tag_id",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "text",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  },
+  {
+    "qName": "tiss_type",
+    "qTags": [],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "total_installments",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "total_installments_pgto",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "transaction_number",
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "type",
+    "qTags": [
+      "$text",
+      "$ascii"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "updated_at",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "Fato"
+    ]
+  },
+  {
+    "qName": "updated_at_pgto",
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "pgto"
+    ]
+  },
+  {
+    "qName": "usuário do estoque",
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Estoque"
+    ]
+  }
+]

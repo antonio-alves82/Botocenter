@@ -1,0 +1,404 @@
+[
+  {
+    "qInfo": {
+      "qId": "013749a1-48e2-4705-95cf-918db463a621",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vHoje",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today(),'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "041ef62c-e9e7-4eb2-a19e-04372adc8c66",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesAnterior",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=DATE(AddMonths( date(today(), 'YYYYMMDD'), -1),'YYYYMM') ",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "108fe72d-11dd-4f17-ba26-334c05816647",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DISABLE_INSIGHTS",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "154e051a-0578-4e08-b39e-2f3171bea425",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesHoje",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today(), 'YYYYMM')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "18f1bb37-3be7-451b-91e3-5676b9c0605d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vHoje_45",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today() -45, 'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "1be2db13-b0e8-4698-88d6-09020da1d5e5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxAnoVencto",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(Ano) >0, Ano, year(today()) )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "3fc0f275-8553-4a59-be3a-989536431665",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMes_4",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(AddMonths(Today(),-4),'YYYYMM')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4367a9ee-40c3-43a8-bf07-c3936f563b19",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMes_2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(AddMonths(Today(),-2),'YYYYMM')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4bc99cd9-f237-4a1c-a15f-7dacb480aff8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDtUltCompra",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=max({<deleted_at = {'01/01/1900'},\n\t   [Proc. Venda Assinatura] = {'S'},\n       price = {\">1\"}\n       >}start_dt)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "4c777e37-9862-452c-92d8-a141f41d386b",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMes_3",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(AddMonths(Today(),-3),'YYYYMM')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "5992ee8d-fd62-4d9f-ae89-5ee9535d8057",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesDiaHoje",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today(), 'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "6b3385d2-84df-4d3e-9000-5d16097ddfa9",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxDtCompraAssinatura",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=max({<deleted_at = {'01/01/1900'},[Proc. Venda Assinatura] = {'S'},price = {\">1\"}>}start_dt)",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "7d7f7f03-dd5c-4499-bf1b-63685708ec21",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDiasSemMarcacao",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "date(today()) - \r\nmin({\n\t\t<deleted_at = {'01/01/1900'}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Proc. Aplicação Botox] = {'S'}\n       >\n       +\n       <deleted_at = {'01/01/1900'}\n       ,canceled_NA -= {'True'}\n       ,missed_NA -= {'True'}\n       ,[Atend. Aplicados] = {'S'}\n       >\n       }start_dt)\n       \n/*\n\nOnly({<[Proc. Aplicação Botox] = {'S'},  \n\t   deleted_at = {'01/01/1900'}>}\n       if(start_dt = Aggr(Nodistinct Max({<[Proc. Aplicação Botox] = {'S'},  deleted_at = {'01/01/1900'}>}start_dt), Paciente),start_dt))\n\n*/",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "85f0c8e0-c4bc-4b7b-bd9a-6960d89b6849",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesDiaAntIni",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=DATE(AddMonths(MonthStart(TODAY()), -1),'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "923e7916-42bc-4ff1-98c4-2d6bd9871a2c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMesHoje",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(MES) >0, MES, month(today()) )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "964db524-cf21-4122-ab73-d664518d5ed7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDtAplicacao90",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "date(Only(if(start_dt = Aggr(Nodistinct \r\nMax(\n    {<\n    [Aplicação Botox] = {'1'},\n    deleted_at = {'01/01/1900'}\n    >}\nstart_dt), Paciente),start_dt)) +90, 'YYYYMMDD')\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9a658366-7345-4aab-b5a4-5c487b080d76",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoAnt",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(Ano) >0, Ano -1, year(today())-1 )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "9fca68bc-95d5-4f28-a4a0-8821488fb8f8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesDiaOntem",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today()-1, 'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b186f356-fc59-4b9c-9eb0-cc5e65db4803",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesDiaANT",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=DATE(AddMonths( date(today(), 'YYYYMMDD'), -1),'YYYYMMDD')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c3f8fc82-77df-4471-a7a9-8fd54633fc41",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDtVencto",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=Dt_Vencto",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c75ccf67-3682-4a30-971e-61ce3ae8f977",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoHoje",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(ANO) >0, ANO, year(today()) )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "d7432e7f-8354-401d-8db3-988e2f7eb632",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDtVencto2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "e4d34403-063f-40ed-ae1b-24430dff02c2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAno_2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(Ano) >0, Ano -1, year(today())-2 )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ea1fbb09-eb42-4067-ae94-a920d1cedc91",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAnoMesHojeMesMes",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=if(GetSelectedCount(Mes)>0,year(today())&MesNum, date(today(), 'YYYYMM') )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ec5458f1-6d79-4d9b-a1bf-d6e59af4c4d0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vDtAplicacao",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "DATE(Only(if(start_dt = Aggr(Nodistinct \r\nMax(\n{<\n\t  [Aplicação Botox] = {'1'},  \n      deleted_at = {'01/01/1900'}\n>}\nstart_dt), Paciente),start_dt)),'YYYYMMDD')\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "f3efa497-9cb7-4f4a-a408-174407d547f4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vMaxAnoVencto_1",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=vMaxAnoVencto -1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "fb49211b-b04e-4f36-9622-4ede6d24a738",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vHoje_15",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "=date(today() -15, 'YYYYMMDD')",
+    "tags": []
+  }
+]

@@ -1,0 +1,17 @@
+///$tab Estoque
+Estoque:
+LOAD
+	company_id&'_'&patient_id as Chave_Estoque,
+    id as cod_estoque,
+    //if(num("text") >=0, 
+    qtd,
+    "text",
+//     "type",
+    deleted_at as deleted_at_estoque,
+    attendance_id as "id do atendimento",
+    patient_id as "id do paciente",
+    user_id as "usuário do estoque",
+    company_id as "company do estoque"
+FROM [lib://Extração:DataFiles/TBE_Estoque.qvd] (qvd)
+//where deleted_at = null()
+;

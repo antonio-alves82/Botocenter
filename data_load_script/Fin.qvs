@@ -1,0 +1,89 @@
+///$tab Fin
+Fin:
+LOAD
+    company_id,
+    attendance_id,
+    ConvertToLocalTime(date(left(due_date,19), 'DD/MM/YYYY hh:mm:ss'),'GMT-03:00') as due_date,
+    nfse_id as ChaveNota,
+    "type",
+//     patient_id,
+    observation,
+    id,
+    tiss_type,
+    payment_method,
+    description,
+    replace(price,'.',',') AS price,
+    replace(received_value,'.',',') AS received_value,
+    source,
+    is_pf,
+    creator_id,
+    payer_id,
+    destroyer_id,
+    paid_date,
+    date_key,
+    recipe_date,
+    insurance_guide_status,
+    created_at,
+    updated_at,
+    deleted_at,
+    customer_id,
+    partner_id,
+    employee_id,
+    provider_id,
+    bank_id,
+    insurance_id,
+    creditcard_lote_id,
+    creditcard_config_id,
+    account_category_id,
+    migration_source,
+    total_installments,
+    finance_creditcard_info_id,
+    migration_source_2,
+    attendance_tested,
+    splits_tested,
+    applied_tested,
+    category,
+    tag_id,
+    cost_center_id,
+    document_number,
+    competence,
+    retentions,
+    finance_merge_ids,
+    finance_merge_parent_id,
+    repeat_config_id,
+    repeat_installment,
+    repeat_total_installments,
+    conciliated,
+    finance_session_ids,
+    finance_session_parent_id,
+    place_id,
+    is_attendance_from_to_receive,
+    is_approved,
+    transaction_number
+//     file_id,
+//     payment_code
+
+FROM [Lib://Extração:DataFiles/TBE_NF.qvd] (qvd);
+
+Left join
+
+LOAD
+    attendance_id,
+    start_date,
+    company_id,
+    patient_id,
+	user_id,
+    event_id,
+    missed_NA,
+    canceled_NA,
+    doctor_requester_id as Cod_Doctor,
+    attendance_merge_parent_id,
+    Tp_Atend,
+    Done_NA,
+    "Obs. Atend",
+    Del_NA
+FROM [Lib://Extração:DataFiles/TBE_NA.qvd] (qvd);
+
+
+Store Fin into [Lib://Produção:DataFiles/TBE_Fin.qvd];
+drop Table Fin;

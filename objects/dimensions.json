@@ -1,0 +1,396 @@
+[
+  {
+    "qInfo": {
+      "qId": "174c0250-e272-4483-83f6-30bd204b9cc1",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Obs. Fin"
+      ],
+      "qFieldLabels": [
+        "Obs. Fin"
+      ],
+      "title": "Obs. Fin",
+      "coloring": {
+        "colorMapRef": "GMBxpMn",
+        "changeHash": "0.9750940215345689"
+      }
+    },
+    "qMetaDef": {
+      "title": "Obs. Fin",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "273657f4-7931-4ea7-9925-f15b1950dcd5",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "UF"
+      ],
+      "qFieldLabels": [
+        "UF"
+      ],
+      "title": "UF",
+      "coloring": {
+        "colorMapRef": "gKzXhAu",
+        "changeHash": "0.98362780565976"
+      }
+    },
+    "qMetaDef": {
+      "title": "UF",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "2e1566c4-10da-4025-adcd-3d7f2b8258f7",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Procedimento"
+      ],
+      "qFieldLabels": [
+        "Proced."
+      ],
+      "title": "Proced.",
+      "coloring": {
+        "colorMapRef": "2e1566c4-10da-4025-adcd-3d7f2b8258f7",
+        "changeHash": "0.415584744469792"
+      }
+    },
+    "qMetaDef": {
+      "title": "Proced.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "3b3da335-a76d-47c1-85aa-30d38f2c53b9",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "ANO"
+      ],
+      "qFieldLabels": [
+        "Ano"
+      ],
+      "title": "Ano",
+      "coloring": {
+        "colorMapRef": "3b3da335-a76d-47c1-85aa-30d38f2c53b9",
+        "changeHash": "0.0898748210118987"
+      }
+    },
+    "qMetaDef": {
+      "title": "Ano",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "4c34d81f-e0a6-4ad2-83dc-2af82b0c3c5c",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Obs. Atend"
+      ],
+      "qFieldLabels": [
+        "Obs. Atend"
+      ],
+      "title": "Obs. Atend",
+      "coloring": {
+        "colorMapRef": "GMBxpMn",
+        "changeHash": "0.6408271843623665"
+      }
+    },
+    "qMetaDef": {
+      "title": "Obs. Atend",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "4fe73d11-0cf9-4eaf-94e9-8c243560b563",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "DIA"
+      ],
+      "qFieldLabels": [
+        "Dia"
+      ],
+      "title": "Dia",
+      "coloring": {
+        "colorMapRef": "4fe73d11-0cf9-4eaf-94e9-8c243560b563",
+        "changeHash": "0.9819666435866052"
+      }
+    },
+    "qMetaDef": {
+      "title": "Dia",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "749a38fe-c15f-47e6-8670-50056edc6869",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "MES"
+      ],
+      "qFieldLabels": [
+        "Mes"
+      ],
+      "title": "Mes",
+      "coloring": {
+        "colorMapRef": "749a38fe-c15f-47e6-8670-50056edc6869",
+        "changeHash": "0.6458356002073502"
+      }
+    },
+    "qMetaDef": {
+      "title": "Mes",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "82a2f0ce-3a86-4ccc-b3ab-292d244d7f94",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Cidade"
+      ],
+      "qFieldLabels": [
+        "Cidade"
+      ],
+      "title": "Cidade",
+      "coloring": {
+        "colorMapRef": "gKzXhAu",
+        "changeHash": "0.33328971824660747"
+      }
+    },
+    "qMetaDef": {
+      "title": "Cidade",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "82efea58-52dd-4388-bfe7-e0aef9298782",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Obs. Paciente"
+      ],
+      "qFieldLabels": [
+        "Obs. Paciente"
+      ],
+      "title": "Obs. Paciente",
+      "coloring": {
+        "colorMapRef": "GMBxpMn",
+        "changeHash": "0.8713484964819191"
+      }
+    },
+    "qMetaDef": {
+      "title": "Obs. Paciente",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "GMBxpMn",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Paciente"
+      ],
+      "qFieldLabels": [
+        "Paciente"
+      ],
+      "title": "Paciente",
+      "coloring": {
+        "changeHash": "0.345553581495764"
+      }
+    },
+    "qMetaDef": {
+      "title": "Paciente",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "a003707c-7f3e-4357-994a-64c63d8e3bfb",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Tp. Atend."
+      ],
+      "qFieldLabels": [
+        "Tp. Atend."
+      ],
+      "title": "Tp. Atend.",
+      "coloring": {
+        "colorMapRef": "gKzXhAu",
+        "changeHash": "0.5428191441795671"
+      }
+    },
+    "qMetaDef": {
+      "title": "Tp. Atend.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "gKzXhAu",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Empresa"
+      ],
+      "qFieldLabels": [
+        "Loja"
+      ],
+      "title": "Loja",
+      "coloring": {
+        "changeHash": "0.3012126981110874",
+        "colorMapRef": "gKzXhAu"
+      }
+    },
+    "qMetaDef": {
+      "title": "Loja",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "hTJEk",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "Empresa",
+        "Profissional"
+      ],
+      "qFieldLabels": [],
+      "title": "Emp. | Prof.",
+      "coloring": {
+        "changeHash": "0.6004174974455267"
+      }
+    },
+    "qMetaDef": {
+      "title": "Emp. | Prof.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "mLeQNbR",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "UF",
+        "Cidade"
+      ],
+      "qFieldLabels": [],
+      "title": "UF | Cidade",
+      "coloring": {
+        "changeHash": "0.21792814576051733"
+      }
+    },
+    "qMetaDef": {
+      "title": "UF | Cidade",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "wMfcxB",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "N",
+      "qFieldDefs": [
+        "Região"
+      ],
+      "qFieldLabels": [
+        "Região"
+      ],
+      "title": "Região",
+      "coloring": {
+        "changeHash": "0.3391807219774481"
+      }
+    },
+    "qMetaDef": {
+      "title": "Região",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "yZTGf",
+      "qType": "dimension"
+    },
+    "qDim": {
+      "qGrouping": "H",
+      "qFieldDefs": [
+        "Região",
+        "UF",
+        "Cidade",
+        "Empresa"
+      ],
+      "qFieldLabels": [],
+      "title": "Locais de Unidades",
+      "coloring": {
+        "changeHash": "0.18803875153877714"
+      }
+    },
+    "qMetaDef": {
+      "title": "Locais de Unidades",
+      "description": "",
+      "tags": []
+    }
+  }
+]

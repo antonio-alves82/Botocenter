@@ -1,0 +1,13 @@
+///$tab Médico
+Profissional:
+LOAD
+	id_company&'_'&id_user as Chave_Medico,
+    id_user as Cod_user,
+    médico as Profissional,
+    especialidade,
+    "type" AS Tp_Medico,
+    ativo,
+//     id_members,
+    id_company as "Emp. Médico",
+    med_deleted_at
+FROM [Lib://Extração:DataFiles/TBE_Medico.qvd] (qvd);

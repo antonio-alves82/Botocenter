@@ -1,0 +1,23 @@
+///$tab Empresa
+Empresa:
+
+LOAD
+    Chave_Empresa,
+    Cod_Empresa,
+    if(
+    	Cod_Empresa = '642' or //recife
+        Cod_Empresa = '790' or //jardim sul
+        Cod_Empresa = '1016' or //osasco
+        //Cod_Empresa = '3768' and //caruaru
+        Cod_Empresa = '3715' //sto amaro
+       , 'Própria', 'Franquia') as Loja,
+    Empresa,
+    cnpj,
+    address_cep,
+    address_address,
+    address_number,
+    address_district,
+    Cidade,
+    UF,
+    Região
+FROM [Lib://Extração:DataFiles/TBE_Empresa.qvd] (qvd);

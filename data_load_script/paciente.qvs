@@ -1,0 +1,26 @@
+///$tab paciente
+Paciente:
+
+LOAD
+    Chave_Paciente,  //company_id&'_'&id
+    cpf &' - '&Paciente as Paciente_CN,
+    Cod_Paciente,
+    Paciente,
+    cpf,
+    DtNasc,
+    Idade, 
+    born,
+    gender, 
+	"source" as "Como conheceu",
+    email,
+    Celular, 
+    "Tel. Casa",
+    "Tel. Trabalho",
+    "Obs. Paciente", 
+    Cidade_Paciente,
+    Bairro_Paciente,
+    CEP_Paciente,
+    UF_Paciente,
+    País,
+    image_id
+FROM [Lib://Extração:DataFiles/TBE_Paciente.qvd] (qvd);

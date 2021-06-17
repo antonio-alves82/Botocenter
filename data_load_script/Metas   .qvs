@@ -1,0 +1,14 @@
+///$tab Metas //
+// qualify *;
+
+// Metas:
+// LOAD
+//     Cod_Empresa&'_'&mid(Data,4,2)&right(Data,4) as Chave_Meta,
+//      Empresa,
+// Cod_Empresa,
+//     "Dt. Metas" AS "Desc. Meta",
+//     Data AS "Data da Meta",
+//     num(valores) as valores 
+// FROM [lib://Extração:DataFiles/TBE_Metas.qvd] (qvd);
+
+// Unqualify *;

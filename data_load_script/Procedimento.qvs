@@ -1,0 +1,106 @@
+///$tab Procedimento
+Procedimento:
+LOAD
+	company_id&'_'&attendance_id as Chave_procedimento,
+    id as CodProcedimento,
+    name as Procedimento,
+    //finance_id as ,
+    if(
+    	name <> 'AVALIAÇÃO', 'N', 'S') AS "Proc. Avaliação",
+    
+    if(
+        id = '70786' or         
+        id = '84928' or         
+        id = '147264' or        
+        id = '162970' or        
+        id = '171432' or 
+        id = '185451' or
+        id = '187214' or
+        id = '197657', 'S','N') as "Proc. Retorno", 
+    
+    if(
+        id = '162958' or         
+        id = '192168' or         
+        id = '147256' or        
+        id = '167106' or        
+        id = '167104' or 
+        id = '173158' or
+        id = '185443' or
+        id = '187209'or
+        id = '215598'or
+        id = '207903'or
+        id = '167103'or
+        id = '171429'or
+        id = '201596'or
+        id = '215592'or
+        id = '215196' or
+        id = '215198' or
+        id = '215199' or
+        id = '216213' or
+        id = '242757' or
+        
+        id = '196909', 'S','N') as "Proc. Venda Assinatura",
+        
+        /*
+147256	1.ASSINATURA - ATO DA COMPRA
+162958	1. ASSINATURA - ATO DA COMPRA
+167103	1.ASSINATURA - ATO DA COMPRA
+167104	1.ASSINATURA - ATO DA COMPRA
+173158	1.ASSINATURA - ATO DA COMPRA
+185443	1. ASSINATURA-ATO DA COMPRA
+187209	1 ASSINATURA - ATO DA COMPRA
+192168	ASSINATURA - ATO DA COMPRA
+
+215592	1. ASSINATURA - ATO DA COMPRA
+207903	1. ASSINATURA ATO DA COMPRA
+201596	1.ASSINATURA - ATO DA COMPRA
+196909	1 ASSINATURA- ATO DA COMPRA
+192168	ASSINATURA - ATO DA COMPRA
+187209	1 ASSINATURA - ATO DA COMPRA
+185443	1. ASSINATURA-ATO DA COMPRA
+173158	1.ASSINATURA - ATO DA COMPRA
+171429	1.ASSINATURA - ATO DA COMPRA
+167104	1.ASSINATURA - ATO DA COMPRA
+167103	1.ASSINATURA - ATO DA COMPRA
+162958	1. ASSINATURA - ATO DA COMPRA esta como aplicação e procedimento
+
+        */ 
+        
+    if(
+        id = '173823' or         id = '175120' or         id = '174888' or        id = '172796' or        id = '187217' or
+        id = '147288' or         id = '147101' or         id = '94078' or         id = '94117' or         id = '94126' or
+        id = '94131' or          id = '40291' or          id = '63943' or         id = '65583' or         id = '65585' or   
+        id = '40292' or          id = '63080' or          id = '177259' or        id = '166985' or        id = '166990' or 
+        id = '143800' or         id = '163512' or         id = '163511' or        id = '163510' or        id = '173638' or
+        id = '173782' or         id = '176425' or         id = '176641' or        id = '187220' or        id = '143801' or
+        id = '173528' or         id = '110514' or         id = '70672' or         id = '173517' or        id = '173527' or
+        id = '113576' or         id = '63079' or          id = '194617' or        id = '63081' or         id = '183908' or
+        id = '183907' or         id = '187472' or         id = '147259' or        id = '147260' or        id = '174435' or
+        id = '147258' or         id = '162964' or         id = '173160' or        id = '174434' or        id = '187218' or
+        id = '167978' or         id = '167979' or         id = '171892' or        id = '112952' or        id = '112950' or
+        id = '94129' or          id = '94115' or          id = '68561' or         id = '82982' or         id = '92857' or
+        id = '99010' or          id = '84934' or          id = '85227' or         id = '86147' or         id = '92858' or
+        id = '94113' or          id = '99008' or          id = '84933' or         id = '85226' or         id = '104595' or
+        id = '110849' or         id = '94105' or          id = '94437' or         id = '94112' or         id = '99007' or
+        id = '70674' or          id = '92855' or          id = '94104' or         id = '84932' or         id = '85225' or
+        id = '68562' or          id = '86148' or          id = '81515' or         id = '92854' or         id = '94111' or
+        id = '99006' or          id = '65243' or          id = '70675' or         id = '92853' or         id = '99005' or
+        id = '105799' or         id = '86146' or          id = '81516' or         id = '84930' or         id = '84781' or
+        id = '94109' or          id = '70669' or          id = '94103' or         id = '94120' or         id = '104331' or
+        id = '65242' or          id = '84929' or          id = '94102' or         id = '114310' or        id = '149014' or
+        id = '147257' or         id = '185446' or         id = '162962' or        id = '187211' or        id = '187210' or
+        id = '105858' or         id = '105857' or         id = '94108' or         id = '104288' or        id = '81514' or
+        id = '94119' or          id = '187212' or         id = '92856' or         id = '94101' or         id = '113572' or
+        id = '147254' or         id = '94110' or          id = '172088' or        id = '172879' or        id = '175684' or
+        id = '172094' or         id = '172880' or         id = '185452' or        id = '172699' or        id = '162960' or
+        id = '162958' or         id = '104330' or         id = '167482' or        id = '70670' or         id = '94107' or
+        id = '94118' or          id = '99002' or          id = '86288' or 		  id = '220384' or        id = '220353'or
+        id = '215598' or 		 id = '215593' or 		  id = '207907' or 		  id = '207906' or 		  id = '196910' or
+        id = '197658' or 		 id = '197659' or 		  id = '198659' or 		  id = '199178' or 		  id = '201592' or
+        id = '201597' or 		 id = '207904' or 		  id = '51484' or 		  id = '50889' or 		  id = '52388' or
+        id = '40681' or          id = '171430' or		  id = '174432' or		  id = '215194' or		  id = '215200' or		  
+        id = '242756' or 		 id = '242758' or 		  id = '220383', 'S','N')  as "Proc. Aplicação Botox"
+
+//     procedure_id
+    
+FROM [Lib://Extração:DataFiles/TBE_Procedimentos.qvd] (qvd);

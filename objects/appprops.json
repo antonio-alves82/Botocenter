@@ -1,0 +1,28 @@
+[
+  {
+    "qProperty": {
+      "qInfo": {
+        "qId": "4c55ddec-8e13-4512-af27-3a867e3daefc",
+        "qType": "appprops"
+      },
+      "qMetaDef": {},
+      "sheetTitleBgColor": {
+        "color": "#30a0ac",
+        "index": -1
+      },
+      "sheetTitleGradientColor": {
+        "color": "#01d9b2",
+        "index": -1
+      },
+      "sheetTitleColor": "#ffffff",
+      "sheetLogoThumbnail": {
+        "qStaticContentUrlDef": {}
+      },
+      "sheetLogoPosition": "",
+      "rtl": false,
+      "theme": "card",
+      "defaultBookmarkId": null
+    },
+    "qChildren": []
+  }
+]

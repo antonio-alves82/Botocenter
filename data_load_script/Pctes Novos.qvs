@@ -1,0 +1,8 @@
+///$tab Pctes Novos
+Pctes_novos:
+LOAD
+    company_id&'_'&patient_id as Pctes_novos,
+    patient_id&'_'&name as Pctes_CN,
+    company_id as Pctes_empresa,
+    cpf as Pctes_cpf
+FROM [lib://Extração:DataFiles/TBE_Pctes_novos.qvd] (qvd);

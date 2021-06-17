@@ -1,0 +1,545 @@
+[
+  {
+    "qInfo": {
+      "qId": "3ca47d8d-4305-4e11-b19c-eb267cf87a40",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Qtd. Slot vendas mês atual",
+      "qDef": "sum({<\r\n\t  ANO = {'$(vAnoHoje)'}, \n      MES = {'$(vMesHoje)'}, \n      deleted_at = {'01/01/1900'}\n      >}[Qtd Slot])\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Qtd. Slots: '&IF(GetSelectedCount(MES)>0, MES, MONTH(today()) )&'/'&IF(GetSelectedCount(ANO)>0, ANO, MONTH(today()) )",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Qtd. Slot vendas mês atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "EEJFux",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas mês atual",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Vendas: '&if(GetSelectedCount(MES), MES, date(today(), 'MMM'))&'/'&if(GetSelectedCount(ANO), ANO, date(today(), 'YYYY'))",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Vendas mês atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "EtpPFZ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Dias Sem Marcação",
+      "qDef": "if($(vDiasSemMarcacao) >= 110 and $(vDiasSemMarcacao) <= 135, $(vDiasSemMarcacao) )",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Dias Sem Marcação",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "FShC",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas parcial Mes Ant",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  //Ano = van\n      AnoMesDia = {\">=$(vAnoMesDiaAntIni)<=$(vAnoMesDiaANT)\"},\n      deleted_at = {'01/01/1900'}\n      >}price) ",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Vendas parcial Mes Ant",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PXhSZj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Retornos de 45 a 15 dias",
+      "qDef": "count( {<\r\n\t  [Atend. Retorno] = {'S'},\n      missed_NA = {'False'},\n\t  AnoMesDia = {\">=$(vHoje_45)<=$(vHoje_15)\"} ,\n      deleted_at = {'01/01/1900'}\n      >\n      +\n      <\n      [Proc. Retorno] = {'S'},\n      missed_NA = {'False'},\n\t  AnoMesDia = {\">=$(vHoje_45)<=$(vHoje_15)\"} ,\n      deleted_at = {'01/01/1900'}\n      >\n      }cpf) \n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Retornos '&date(today()-45, 'DD/MMM')&' à '&date(today()-15,'DD/MMM/YYYY')",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Retornos de 45 a 15 dias",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PjsW",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Vendas total Mes anterior",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  ANOMES = {'$(vAnoMesAnterior)'},\n      //MES = {'$(vMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Vendas total: '&date(AddMonths(today(),-1),'MMM/YYYY')//if(GetSelectedCount(MES) >0, MES, vAnoMesAnterior)&'/'&if(GetSelectedCount(ANO) >0, ANO)",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Vendas total Mes anterior",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "TgZPj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Retornos 2 meses atrás",
+      "qDef": "count( {<\r\n\t  [Atend. Retorno] = {'S'},\n      missed_NA = {'False'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      deleted_at = {'01/01/1900'}\n      >\n      +\n      <\n      [Proc. Retorno] = {'S'},\n      missed_NA = {'False'},\n\t  AnoMes = {'$(vAnoMes_2)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }cpf) \n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Retornos '&date(AddMonths(Today(),-2),'MMM/YYYY')",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Retornos 2 meses atrás",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "YzvMP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Fat. ant.",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  Ano = {'$(vMaxAnoVencto_1)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Fat. '&vMaxAnoVencto_1",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "coloring": {},
+      "isCustomFormatted": false
+    },
+    "qMetaDef": {
+      "title": "Fat. ant.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ZZDEGRA",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Fat. ano atual",
+      "qDef": "Sum({<\r\n\t  price = {\">10\"},\n\t  [Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\n\t  Ano = {'$(vMaxAnoVencto)'},\n      deleted_at = {'01/01/1900'}\n    >}price) ",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Fat. '&vMaxAnoVencto",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Fat. ano atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "ZseZjdA",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Slot Vendas",
+      "qDef": "count({<price = {\">10\"}>}distinct attendance_id)\r\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Slot Vendas",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "a61379c9-e097-4bc8-bb4e-5bcc1bde88b5",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Fat. ant. mês",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  Mes,\n      Ano = {'$(vMaxAnoVencto_1)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Vendas '&vMaxAnoVencto_1",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "coloring": {
+        "baseColor": {
+          "color": "#4477aa",
+          "index": 6
+        }
+      },
+      "isCustomFormatted": false
+    },
+    "qMetaDef": {
+      "title": "Fat. ant. mês",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "anQhQF",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Qtd. novas assinatura mês atual",
+      "qDef": "\r\ncount({<AnoMes = {'$(vAnoMesHoje)'},\n      [Proc. Venda Assinatura] = {'S'},\n      deleted_at = {'01/01/1900'}\n      >}  cpf) \n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Qtd. de novas assinaturas '&date(today(), 'MMM/YYYY')",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Qtd. novas assinatura mês atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "bff34a30-2ea2-4c33-9f17-a1d83e02f6bd",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ticket Médio mês atual",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  \n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'}, \n      deleted_at = {'01/01/1900'}\n      >}price) \n      / \nsum({<\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'}, \n      deleted_at = {'01/01/1900'}\n      >}[Qtd Slot])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Ticket médio: '& IF(GetSelectedCount(MES)>0, MES, MONTH(today()) ) &'/'&IF(GetSelectedCount(ANO)>0, ANO, YEAR(today()) )",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ticket Médio mês atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "d9642318-bcfc-4316-83d3-6fa42082a200",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Slot vendas mês atual",
+      "qDef": "count({<price = {\">10\"}, AnoMes = {'$(vAnoMesHoje)'}>}distinct attendance_id)\r\n",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Slots: '&date(today(), 'MMM/YYYY')",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Slot vendas mês atual",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "dPDHZpf",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "%Cresc.",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  Ano = {'$(vMaxAnoVencto)'},\n      deleted_at = {'01/01/1900'}\n      >}price) /\n\nSum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\n\t  Ano = {'$(vMaxAnoVencto_1)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "0%",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "%Cresc.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "e1bfae8e-7a0f-4f60-9490-80a25fd7cec5",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Fat. atual Mes",
+      "qDef": "Sum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\r\n\t  Mes,\n      Ano = {'$(vMaxAnoVencto)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Vendas '&vMaxAnoVencto",
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {
+        "baseColor": {
+          "color": "#276e27",
+          "index": 3
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Fat. atual Mes",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "gHVfyP",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Fat. Ano_2",
+      "qDef": "\r\nSum({<[Metodo Pgto] = {'Cartão','Crédito em conta','Dinheiro','Não Definido'},\n\t  Mes,\n      Ano = {'$(vAno_2)'},\n      deleted_at = {'01/01/1900'}\n      >}price)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Vendas '&vAno_2",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "#.##0,00",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "coloring": {
+        "baseColor": {
+          "color": "#f8981d",
+          "index": 9
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Fat. Ano_2",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "nEwEbH",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "='Índice de Conversão mes atual'",
+      "qDef": "count({<\r\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n      \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >}Cod_Paciente) \n+\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Novos] = {'S'},  \n      canceled_NA -= {'True'},\n      missed_NA -= {'True'},\n      ANO = {'$(vAnoHoje)'},\n      MES = {'$(vMesHoje)'},\n\t  //AnoMes = {'$(vAnoMesHoje)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }Cod_Paciente) \n)\n\n/*\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n\t  //AnoMes = {'$(vAnoMes_3)'},\n      deleted_at = {'01/01/1900'}\n      >\n      }cpf) \n      \n\t  /\n      \n(\ncount({<\n\t  //price = {\">0\"},\n\t  [Atend. Convertido] = {'S'},  \n\t  //AnoMes = {'$(vAnoMes_3)'},\n      deleted_at = {'01/01/1900'}\n      >}cpf) \n)\n*/",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qLabelExpression": "='Índice de Conversão mes atual'",
+      "qNumFormat": {
+        "qType": "F",
+        "qnDec": 2,
+        "qUseThou": 0,
+        "qFmt": "0,0%",
+        "qDec": ",",
+        "qThou": "."
+      },
+      "isCustomFormatted": false,
+      "numFormatFromTemplate": true,
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "='Índice de Conversão mes atual'",
+      "description": "",
+      "tags": []
+    }
+  }
+]

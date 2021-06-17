@@ -1,0 +1,15 @@
+///$tab Nota
+Nota:
+LOAD
+    company_id&'_'&id as ChaveNota,
+    numero as "Num. Nota",
+    ConvertToLocalTime(date(left(data_emissao,19), 'DD/MM/YYYY hh:mm:ss'),'GMT-03:00') as "Dt emissão Nota",
+    ConvertToLocalTime(date(left(competencia,19), 'DD/MM/YYYY hh:mm:ss'),'GMT-03:00') as "Dt competência Nota",
+//     inscricao_municipal,
+	tomador_servico_razao_social as "O cliente",
+    tomador_servico_identificacao_cpf_cnpj as "CPF na Nota",
+	meta_active, 
+	meta_source, 
+    servico_valores_valor_servicos as "Valor da Nota",
+    servico_item_lista_servico
+FROM [Lib://Extração:DataFiles/TBE_Nota.qvd] (qvd);

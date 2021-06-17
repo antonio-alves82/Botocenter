@@ -1,0 +1,6 @@
+///$tab Assinatura sem uso
+[Assinaturas sem uso]:
+LOAD
+	company_id&'_'&patient_id as Chave_AssinaturaSemUso,
+    patient_id as Cod_AssinaturaSemUso
+FROM [lib://Extração:DataFiles/TBE_AssinaturasNaoUtilizadas.qvd] (qvd);
